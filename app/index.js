@@ -1,14 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var App = require('./components/App');
 require('./index.css')
-
-class App extends React.Component {
-  render() {
-    return (
-      <div>Weather app started</div>
-    )
-  }
-}
 
 ReactDOM.render(
   <App />,
